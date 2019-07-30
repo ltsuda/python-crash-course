@@ -1,6 +1,7 @@
 guest_list = ['Sterling', 'Reda', 'Audrey', 'Kelly', 'Thersa']
 print(f'Original guest list {guest_list}')
-print("Ops, the table is not big enough, we need to choose only two of our guests")
+print("Ops, the table is not big enough "
+      "we need to choose only two of our guests")
 
 popped_person = guest_list.pop()
 print(f"Sorry {popped_person}, we don't have enough space to invite you")
