@@ -1,0 +1,13 @@
+print('cool' == 'cool')
+print('not cool' != 'not cool')
+print('CoOl'.lower() == 'cool')
+print('NoT cOoL'.lower() != 'NoT cOoL')
+print(1 == 1)
+print(1 != 1)
+print(10 > 1)
+print(10 < 1)
+print(1 < 10 or 1 == 10)
+print(1 > 10 and 1 == 10)
+pizzas = ['pepper rock', 'cheese', 'hawaii']
+print('cheese' in pizzas)
+print('meat' not in pizzas)
